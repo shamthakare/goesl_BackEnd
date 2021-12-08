@@ -11,11 +11,11 @@ const Schema = mongoose.Schema;
 
 // mongoose.connect('mongodb://127.0.0.1:27017/goesl', { useNewUrlParser: true, useUnifiedTopology: true });
 // const mongoURLI = 'mongodb://localhost:27017/goesl';
-// const mongoURLI = 'mongodb://localhost:27017/goesl';
+const uri = 'mongodb://localhost:27017/iconnect';
 // const mongoURLI = "mongodb+srv://nayneshrathod:LsJQHV#XwQjSW@9@mybox.eqmnq.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 // const mongoURLI = "mongodb+srv://nayneshrathod:LsJQHV#XwQjSW@9@cluster0-shard-00-00.ecaql.mongodb.net:27017?ssl=true&replicaSet=atlas-ceza4t-shard-0&authSource=admin&retryWrites=true&w=majority"
 // Connect MongoDB at default port 27017.
-const uri = "mongodb+srv://Archu:Nano15894@nano.qpxpo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://Archu:Nano15894@nano.qpxpo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose.connect(uri, {
   useNewUrlParser: true,
